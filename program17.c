@@ -96,7 +96,7 @@ def game():
         # If neither X nor O wins and the board is full, we'll declare the result as 'tie'.
         if count == 9:
             print("\nGame Over.\n")                
-            print("It's a Tie!!")
+            print("It is a Tie!!")
 
         # Now we have to change the player after every move.
         if turn =='X':
